@@ -82,11 +82,375 @@ class Screen3 extends StatelessWidget {
                 ),
               ),
             ),
-            Container(
-              child: Image.asset(
-                'assets/images/table1.jpg',
-                fit: BoxFit.contain,
-              ),
+            Table(
+              border: TableBorder.all(width: 1),
+              children: [
+                TableRow(children: [
+                  TableCell(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text('            링'),
+                        SizedBox(height: 25),
+                        Text('구분         '),
+                      ],
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(' 임주의보\n 진안자 수\n      (밍)'),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text('구분 폭염\n 진안자 수\n      (밍)'),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text('구분 폭염\n    폭염\n      (폭)'),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text('구분 폭염\n    폭염'),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'A',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '90',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '55',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '90',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '100',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'B',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '20',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '65',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '20',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '10',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'C',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '45',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '55',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '90',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '200',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'D',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '10',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '85',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '20',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '70',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'E',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '10',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '25',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '50',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '10',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        'F',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '20',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '65',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '20',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '70',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+                TableRow(children: [
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Text(
+                        '전체',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(3.0),
+                      child: Text(
+                        '(    )',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(3.0),
+                      child: Text(
+                        '165',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(3.0),
+                      child: Text(
+                        '150',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                  TableCell(
+                    child: Padding(
+                      padding: const EdgeInsets.all(3.0),
+                      child: Text(
+                        '210',
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ),
+                ]),
+              ],
             ),
             Text(
               '00:10',

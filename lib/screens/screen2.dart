@@ -114,8 +114,9 @@ class _Screen2State extends State<Screen2> {
                         ),
                       ),
                     ),
+                    SizedBox(width: 5),
                     Container(
-                      width: 55,
+                      width: 50,
                       height: 50,
                       padding: EdgeInsets.symmetric(
                         vertical: 13,
@@ -136,6 +137,7 @@ class _Screen2State extends State<Screen2> {
                         ),
                       ),
                     ),
+                    SizedBox(width: 5),
                     Container(
                       padding: EdgeInsets.symmetric(
                         vertical: 15,

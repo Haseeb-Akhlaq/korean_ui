@@ -66,6 +66,8 @@ class Dialog1 extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 18,
                         color: AppColors.mainPurple,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1,
                       ),
                     ),
                   ),
@@ -83,6 +85,8 @@ class Dialog1 extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 18,
                         color: AppColors.mainPurple,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 2,
                       ),
                     ),
                   ),
