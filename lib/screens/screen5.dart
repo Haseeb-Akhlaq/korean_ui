@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:korean_ui/screens/sceen7.dart';
 import 'package:korean_ui/styles/Colors.dart';
 
 class Screen5 extends StatelessWidget {
@@ -114,10 +113,7 @@ class Screen5 extends StatelessWidget {
                     backgroundColor: MaterialStateProperty.all(
                   AppColors.mainPurple,
                 )),
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Screen7()));
-                },
+                onPressed: () {},
                 child: Padding(
                   padding: const EdgeInsets.all(18.0),
                   child: Text(

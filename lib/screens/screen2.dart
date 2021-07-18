@@ -2,14 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:korean_ui/styles/Colors.dart';
 
-class Screen1 extends StatefulWidget {
-  const Screen1({Key? key}) : super(key: key);
+class Screen2 extends StatefulWidget {
+  const Screen2({Key? key}) : super(key: key);
 
   @override
-  _Screen1State createState() => _Screen1State();
+  _Screen2State createState() => _Screen2State();
 }
 
-class _Screen1State extends State<Screen1> {
+class _Screen2State extends State<Screen2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
